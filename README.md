@@ -1,4 +1,6 @@
-[Server Image](images/server.png)
+<p align="center">
+  <img src="images/server.png" alt="Server Image"/>
+</p>
 # Server Build Monitor App
 Displays whether a site is up, down or other based on the status code received
 ## Details
