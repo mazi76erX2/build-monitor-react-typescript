@@ -4,7 +4,7 @@ import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-        width: 275,
+        maxWidth: 375,
     },
     expand: {
       transform: 'rotate(0deg)',

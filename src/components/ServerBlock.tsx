@@ -55,12 +55,7 @@ const ServerBlock = ({ name, status, color, response }: Props): JSX.Element => {
 
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>Method:</Typography>
             <Typography paragraph>
-              Heat 1/2 cup of the broth in a pot until simmering, 
-              add saffron and set aside for 10
-              minutes. Set aside off of the heat to let rest for 
-              10 minutes, and then serve.
               {response}
             </Typography>
           </CardContent>
